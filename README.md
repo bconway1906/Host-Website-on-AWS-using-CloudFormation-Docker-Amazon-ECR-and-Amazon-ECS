@@ -145,7 +145,6 @@ This DevOps project involves hosting a website on AWS using Docker, Amazon Elast
 13. **Create Access Key for IAM User**
     - Explanation: Creating an access key provides secure authentication for the IAM user when interacting with AWS services programmatically.
     ```bash
-    # Console steps
     ```
     
 14. **Configure AWS CLI**
@@ -186,25 +185,21 @@ This DevOps project involves hosting a website on AWS using Docker, Amazon Elast
 20. **Create Security Groups**
     - Explanation: Security groups are created to define inbound and outbound rules for network traffic. This step ensures secure communication between different components of the architecture.
     ```bash
-    # Console steps
     ```
 
 21. **Create Application Load Balancer (ALB)**
     - Explanation: ALB is provisioned to distribute incoming application traffic among ECS containers. It enhances availability and fault tolerance.
     ```bash
-    # Console steps
     ```
 
 22. **Create ECS Cluster using AWS Fargate**
     - Explanation: AWS Fargate is chosen for ECS cluster management as it provides serverless container execution. This eliminates the need to manage infrastructure, enhancing scalability.
     ```bash
-    # Console steps
     ```
 
 23. **Create Task Definitions in Amazon ECS**
     - Explanation: Task definitions define parameters for running Docker containers in ECS. It includes container configurations, environment variables, and other settings.
     ```bash
-    # Console steps
     ```
 
 ...
