@@ -1,4 +1,4 @@
-# Hosting Website on AWS using Docker, Amazon ECR, and Amazon ECS
+# Hosting Website on AWS using CloudFormation, Docker, Amazon ECR, and Amazon ECS
 
 ![image](https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/fa02dc30-d672-43a4-ba99-97cfd2dad14a)
 
