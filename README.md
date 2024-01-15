@@ -2,7 +2,7 @@
 
 ![image](https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/fa02dc30-d672-43a4-ba99-97cfd2dad14a)
 
-<img width="478" alt="image" src="https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/0b8ace57-0814-44cb-a22e-d32202e7a9f9">
+<img width="725" alt="image" src="https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/0b8ace57-0814-44cb-a22e-d32202e7a9f9">
 
 ## Overview
 
@@ -78,9 +78,6 @@ This DevOps project involves hosting a website on AWS using Docker, Amazon Elast
 
 4. **Install Visual Studio Code**
    - Explanation: Visual Studio Code is chosen as the IDE for its features that enhance code development, making it easier to manage project files.
-   ```bash
-   # Installation steps specific to your platform
-   ```
 
 5. **Clone Dockerfile Repository**
    - Explanation: Cloning the Dockerfile repository provides a local copy of project files. It facilitates version control, collaboration, and access to project resources.
@@ -100,11 +97,8 @@ This DevOps project involves hosting a website on AWS using Docker, Amazon Elast
 
 8. **Create Dockerfile**
    - Explanation: A Dockerfile contains instructions for building a Docker container image. It specifies the base image, application configuration, and dependencies needed for the containerized application.
-   ```bash
-   # Create Dockerfile using Visual Studio Code
-   ```
-   <img width="335" alt="image" src="https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/c0e460a6-bbef-452e-b6c7-e2f2356ca31e">
 
+   <img width="335" alt="image" src="https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/c0e460a6-bbef-452e-b6c7-e2f2356ca31e">
 
 9. **Build and Test the Container**
    - Explanation: Building and testing the container image locally ensures that it functions as expected before pushing it to repositories. This step verifies the correctness of the Dockerfile.
@@ -138,14 +132,9 @@ This DevOps project involves hosting a website on AWS using Docker, Amazon Elast
     - Explanation:
 
  Creating an IAM user with administrator access allows programmatic access to AWS services. This user is used for authentication when interacting with Amazon ECR.
-    ```bash
-    # Console steps: Attach policies, create access key
-    ```
 
 13. **Create Access Key for IAM User**
     - Explanation: Creating an access key provides secure authentication for the IAM user when interacting with AWS services programmatically.
-    ```bash
-    ```
     
 14. **Configure AWS CLI**
     - Explanation: Configuring the AWS CLI with access keys enables secure communication between the local environment and AWS services.
@@ -160,7 +149,8 @@ This DevOps project involves hosting a website on AWS using Docker, Amazon Elast
     ```
 
 16. **Push Image to ECR Repository**
-    <img width="347" alt="image" src="https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/cacbfb23-fccf-4422-8a0e-20863cb34320">
+
+     <img width="347" alt="image" src="https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/cacbfb23-fccf-4422-8a0e-20863cb34320">
 
      - Explanation: Tagging and pushing the Docker image to ECR ensures that it's available for deployment using Amazon ECS. ECR serves as a reliable registry for container images.
     ```bash
@@ -176,31 +166,22 @@ This DevOps project involves hosting a website on AWS using Docker, Amazon Elast
     <img width="353" alt="image" src="https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/0555702e-e202-42b1-b124-ba1d03be2741">
     
 18. **Build Three-Tier AWS Network using CloudFormation**
+
     <img width="334" alt="image" src="https://github.com/bconway1906/Host-Website-on-AWS-using-CloudFormation-Docker-Amazon-ECR-and-Amazon-ECS/assets/148906255/051e586f-1df4-4485-be09-a5258da5f17c">
+    
     - Explanation: CloudFormation is used to automate the creation of AWS resources, ensuring consistency and reproducibility. The three-tier network architecture is designed for scalability and reliability.
-    ```bash
-    # Run CloudFormation template
-    ```
 
 20. **Create Security Groups**
     - Explanation: Security groups are created to define inbound and outbound rules for network traffic. This step ensures secure communication between different components of the architecture.
-    ```bash
-    ```
 
 21. **Create Application Load Balancer (ALB)**
     - Explanation: ALB is provisioned to distribute incoming application traffic among ECS containers. It enhances availability and fault tolerance.
-    ```bash
-    ```
 
 22. **Create ECS Cluster using AWS Fargate**
     - Explanation: AWS Fargate is chosen for ECS cluster management as it provides serverless container execution. This eliminates the need to manage infrastructure, enhancing scalability.
-    ```bash
-    ```
 
 23. **Create Task Definitions in Amazon ECS**
     - Explanation: Task definitions define parameters for running Docker containers in ECS. It includes container configurations, environment variables, and other settings.
-    ```bash
-    ```
 
 ...
 
